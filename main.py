@@ -151,7 +151,7 @@ class Main(ScreenManager):
 
 	def open_alert_dialog(self):
 		
-		from kivymd.dialog import MDDialog
+		from kivymd.uix.dialog import MDDialog
 
 		self.alert_dialog = MDDialog(
 			title="Info",
